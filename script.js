@@ -2,16 +2,20 @@ const buttons = document.querySelectorAll(`.btn`);
 const btnAc = document.querySelector('.btnAc');
 const text = document.querySelector(`.text`);
 const btnEqual = document.querySelector(`.btnEqual`);
+const btnGit = document.querySelector(`.btnGit`);
 
 let num1 = ``, num2 = ``, operator = ``;
 let value;
 
 buttons.forEach(button => {
     button.addEventListener(`click`, ()=>{
-        const symbols = `+-*/%.`;
+        const symbols = `+-*/%`;
         value = button.value;
 
         if(symbols.includes(value)){
+            if(num2 != ``){
+                result()
+            }
            if(num1 == ``){
             num1 = value;
             text.textContent = value;
@@ -31,18 +35,10 @@ buttons.forEach(button => {
                 text.textContent = num2;
             }
         }
-
-        console.log(`num1 - ${num1}`);
-        console.log(`num2 - ${num2}`);
-        console.log(`op - ${operator}`);
     })
 })
 
-
-
-
-
-btnEqual.addEventListener(`click`, ()=>{
+function result(){
     let result;
     if(num2 === ``){
         result = `err`;
@@ -71,4 +67,19 @@ btnEqual.addEventListener(`click`, ()=>{
     num1 = result;
     num2 = ``;
     operator = ``;
+};
+
+btnEqual.addEventListener(`click`, ()=>{
+    result();
 });
+
+btnAc.addEventListener(`click`, () => {
+    text.textContent = 0;
+    num1 = ``;
+    num2 = ``;
+    operator = ``;
+})
+
+btnGit.addEventListener(`click`, ()=>{
+    window.open(`https://github.com/notsanta20/calculator`, `_blank`);
+})

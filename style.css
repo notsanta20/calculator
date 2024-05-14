@@ -1,111 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Inter, sans serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans serif;
+}
+
+body{
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+}
+
+.body{
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 300px;
+  height: 550px;
+
+  background-color: rgb(241, 241, 241);
+  border: 2px solid rgb(79, 79, 81);
+  border-radius: 25px;
+  box-shadow: -8px 9px rgb(241, 241, 241), 
+    -8px 9px 0px 2px rgb(79, 79, 81),
+    -20px 20px 20px rgba(251, 173, 65, 0.692);
+}
+
+.btnGrp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: auto;
+}
+
+.display{
+  width: 90%;
+  height: 80px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(79, 79, 81);
+  border-radius: 25px;
+  box-shadow: -8px 9px rgb(255, 255, 255), 
+    -8px 9px 0px 2px rgb(79, 79, 81);
+}
+
+.text{
+  text-align: right;
+  font-size: 3rem;
+  font-family: Fira code;
+  font-weight: 600;
+  color: rgb(79, 79, 81); 
+  padding: 10px;
+}
+
+.btnGrp1,
+.btnGrp2,
+.btnGrp3,
+.btnGrp4,
+.btnGrp5{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   
-  body{
-    background-color: rgb(233, 233, 233);
-  }
-  
-  .container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .body{
-    background-color: rgb(241, 241, 241);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 300px;
-    height: 550px;
-  
-    background-color: rgb(241, 241, 241);
-    border: 2px solid rgb(79, 79, 81);
-    border-radius: 25px;
-    box-shadow: -8px 9px rgb(241, 241, 241), 
-      -8px 9px 0px 2px rgb(79, 79, 81),
-      -20px 20px 20px rgba(251, 173, 65, 0.692);
-  }
-  
-  .display{
-    width: 90%;
-    height: 80px;
-    margin: 20px;
-  
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(79, 79, 81);
-    border-radius: 25px;
-    box-shadow: -8px 9px rgb(255, 255, 255), 
-      -8px 9px 0px 2px rgb(79, 79, 81);
-  }
-  
-  .text{
-    text-align: right;
-    font-size: 3rem;
-    font-family: Fira code;
-    font-weight: 600;
-    color: rgb(79, 79, 81); 
-    padding: 10px;
-  }
-  
-  .btnGrp1,
-  .btnGrp2,
-  .btnGrp3,
-  .btnGrp4,
-  .btnGrp5{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    
-  }
-  
-  .btnGrp5{
-    justify-content: flex-end;
-  }
-  
-  .btn0{
-    flex: 1;
-  }
-  
-  button{
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: Fira code;
-    color: rgb(79, 79, 81);
-    width: 55px;
-    height: 55px;
-    margin: 1px 10px;
-  
-    border: 2px solid rgb(79, 79, 81);
-    border-radius: 50px;
-  
-  }
-  
-  .gray{
-    box-shadow: -4px 5px rgb(241, 241, 241), 
-    -4px 5px 0px 2px rgb(79, 79, 81);
-  }
-  
-  
-  .orange{
-    background-color: rgb(251, 175, 65);
-    box-shadow: -4px 5px rgb(251, 175, 65), 
-    -4px 5px 0px 2px rgb(79, 79, 81);
-  }
-  
-  .gray:hover{
-    background-color: rgba(156, 156, 156, 0.425);
-  }
-  
-  
-  .orange:hover{
-    background-color: rgb(226, 154, 53);
-  }
-  
-  
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Fira code;
+  color: rgb(79, 79, 81);
+  width: 55px;
+  height: 55px;
+  margin: 1px 10px;
+
+  border: 2px solid rgb(79, 79, 81);
+  border-radius: 50px;
+
+}
+
+.gray{
+  box-shadow: -4px 5px rgb(241, 241, 241), 
+  -4px 5px 0px 2px rgb(79, 79, 81);
+}
+
+
+.orange{
+  background-color: rgb(251, 175, 65);
+  box-shadow: -4px 5px rgb(251, 175, 65), 
+  -4px 5px 0px 2px rgb(79, 79, 81);
+}
+
+.gray:hover{
+  background-color: rgba(156, 156, 156, 0.425);
+}
+
+
+.orange:hover{
+  background-color: rgb(226, 154, 53);
+}
+
+.header{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(79, 79, 81);
+}
+
+.footer{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer>a,p{
+  margin: 20px;
+  color: rgb(79, 79, 81);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btnGrp1>button{
+  width: 125px;
+}

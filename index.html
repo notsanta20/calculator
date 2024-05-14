@@ -6,46 +6,52 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&Inter:wght@100..900&display=swap" rel="stylesheet">
-  <title>Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
 <body>
+  <header class="header">Simple Calculator</header>
   <div class="container">
     <div class="body">
       <div class="display">
         <div class="text">0</div>
       </div>
-      <div class="btnGrp1">
-        <button class="btnAc orange">AC</button>
-        <button class="btnGit orange" >git</button>
-        <button class="btn orange" value="%">%</button>
-        <button class="btn orange" value="/">&#xF7</button>
-      </div>
-      <div class="btnGrp2">
-        <button class="btn gray" value="7">7</button>
-        <button class="btn gray" value="8">8</button>
-        <button class="btn gray" value="9">9</button>
-        <button class="btn orange" value="*">x</button>
-      </div>
-      <div class="btnGrp3">
-        <button class="btn gray" value="4">4</button>
-        <button class="btn gray" value="5">5</button>
-        <button class="btn gray" value="6">6</button>
-        <button class="btn orange" value="-">-</button>
-      </div>
-      <div class="btnGrp4">
-        <button class="btn gray" value="1">1</button>
-        <button class="btn gray" value="2">2</button>
-        <button class="btn gray" value="3">3</button>
-        <button class="btn orange" value="+">+</button>
-      </div>
-      <div class="btnGrp5">
-        <button class="btn btn0 gray" value="0">0</button>
-        <button class="btn gray" value=".">.</button>
-        <button class="btnEqual orange">=</button>
+      <div class="btnGrp">
+        <div class="btnGrp1">
+          <button class="btnAc orange">AC</button>
+          <button class="btnGit orange" >Git</button>        
+        </div>
+        <div class="btnGrp2">
+          <button class="btn gray" value="7">7</button>
+          <button class="btn gray" value="8">8</button>
+          <button class="btn gray" value="9">9</button>
+          <button class="btn orange" value="/">&#xF7</button>
+        </div>
+        <div class="btnGrp3">
+          <button class="btn gray" value="4">4</button>
+          <button class="btn gray" value="5">5</button>
+          <button class="btn gray" value="6">6</button>
+          <button class="btn orange" value="*">x</button>
+        </div>
+        <div class="btnGrp4">
+          <button class="btn gray" value="1">1</button>
+          <button class="btn gray" value="2">2</button>
+          <button class="btn gray" value="3">3</button>
+          <button class="btn orange" value="-">-</button>
+        </div>
+        <div class="btnGrp5">
+          <button class="btn gray" value="0">0</button>
+          <button class="btn gray" value=".">.</button>
+          <button class="btnEqual orange">=</button>
+          <button class="btn orange" value="+">+</button>
+        </div>
       </div>
     </div>
   </div>
+  <footer class="footer">
+    <p>© 2024 Santa</p>
+    <a href="https://github.com/notsanta20/calculator" target="_blank">Source Code</a>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
