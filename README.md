@@ -27,5 +27,5 @@
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Inspiration by <a href="https://github.com/notsanta20/calculator" target="_blank">The Odin Project</a>
+* Inspiration by <a href="https://www.theodinproject.com/lessons/foundations-calculator" target="_blank">The Odin Project</a>
 * Design Inspired from <a href="https://dribbble.com/shots/6129386-Daily-Ui-Challenge-04" target="_blank">The Odin Project</a>
