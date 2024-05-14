@@ -3,7 +3,7 @@
   <p align="center">
     For Simple Calculations
     <br />
-    <br />
+    <a href="https://notsanta20.github.io/calculator/">Live Demo</a>
   </p>
 </div>
 
@@ -16,6 +16,7 @@
  <img src="./assets/preview.jpg">
 </div>
 
+## Live Demo
 
 ### Built With
 
