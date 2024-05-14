@@ -6,9 +6,7 @@
     <a href="https://notsanta20.github.io/calculator/">Live Demo</a>
   </p>
 </div>
-
 <br>
-
 <!-- ABOUT THE PROJECT -->
 ## Preview
 
@@ -16,17 +14,14 @@
  <img src="./assets/preview.jpg">
 </div>
 
-## Live Demo
 
 ### Built With
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * Inspiration by <a href="https://www.theodinproject.com/lessons/foundations-calculator" target="_blank">The Odin Project</a>
-* Design Inspired from <a href="https://dribbble.com/shots/6129386-Daily-Ui-Challenge-04" target="_blank">The Odin Project</a>
+* <a href="https://dribbble.com/shots/6129386-Daily-Ui-Challenge-04" target="_blank">Design Inspiration</a>
