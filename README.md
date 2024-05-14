@@ -7,8 +7,9 @@
   </p>
 </div>
 <br>
+
 <!-- ABOUT THE PROJECT -->
-## Preview
+### Preview
 
 <div align="center">
  <img src="./assets/preview.jpg">
